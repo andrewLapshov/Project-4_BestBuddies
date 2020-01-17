@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta name="desciption" content="«Лучшие друзья» помогают людям с нарушениями развития познакомиться и подружиться со сверстниками без инвалидности, найти работу и жить самостоятельно.">
-    <link rel="stylesheet" href="style.d1a03bf19776e1f5e04a.css">
+    <link rel="stylesheet" href="style.d9b95f512722ded557fe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
-    <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Лучшие друзья Россия | Фонд поддержки лиц с интеллектуальными нарушениями</title>
     <meta property="og:locale" content="ru_RU">
@@ -17,13 +16,17 @@
     <meta property="og:url" content="https://bestbuddies.ru/">
     <meta property="og:site_name" content="Лучшие друзья">
     <meta property="og:image" content="https://bestbuddies.ru/wp-content/uploads/2015/03/Facebook-sharing.png">
+    <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
+
   </head>
   <body>
     <div class="page">
       <div class="header__place">
       <header class="header">
         <div class="header__container">
-          <img src="./images/logo.svg" alt="Logo" class="logo logo_position_heeaedr" />
+          <a href="./index.html" class="header__logo-link">
+            <img src="./images/logo.svg" alt="Logo" class="logo logo_position_heeaedr" />
+          </a>
           <div class="header__title">
             <div class="title">
               Лучшие <span class="title__bold">друзья</span><br> Best
@@ -41,9 +44,8 @@
               </a>
             </li>
             <li class="social__item social__item_position_header">
-              <script type="text/javascript">
-                document.write(VK.Share.button({ url: 'https://bestbuddies.ru/', title: 'Лучшие друзья' }, { type: 'custom', text: '<img src="./images/vk1.png" alt="vk" class="social__icon" />' }));
-              </script>
+              <button class="social__icon_vk" data-sharer="vk" data-title="vk" data-url="https://bestbuddies.ru/">
+              <img src="./images/vk1.png" alt="vk" class="social__icon" /></button>
             </li>
             <li class="social__item social__item_position_header">
               <a href="https://www.facebook.com/sharer/sharer.php?u=bestbuddies.ru" target="_blank" class="social__link">
@@ -199,7 +201,7 @@
         <div class="estimates__container">
           <h2 class="estimates__title">Годовой бюджет на проведение регулярных тренировок по футболу и волейболу для ребят с нарушением развития</h2>
           <p class="estimates__subtitle">
-            764 536 ₽
+            764 536 <span class="rouble">i</span>
           </p>
           <div class="estimates__content">
             <div class="estimate-block">
@@ -211,7 +213,7 @@
                   Аренда зала
                 </span>
                 <span class="estimate-block__text">
-                  240 000 ₽
+                  240 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -219,7 +221,7 @@
                   Инвентарь
                 </span>
                 <span class="estimate-block__text">
-                  5 000 ₽
+                  5 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -227,7 +229,7 @@
                   Зарплата тренеров
                 </span>
                 <span class="estimate-block__text">
-                  108 000 ₽
+                  108 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -235,11 +237,11 @@
                   Страховые взносы 27,1%
                 </span>
                 <span class="estimate-block__text">
-                  29 268 ₽
+                  29 268 <span class="rouble">i</span>
                 </span>
               </div>
               <p class="estimate-block__total">
-                382 268 ₽
+                382 268 <span class="rouble">i</span>
               </p>
             </div>
             <div class="estimate-block">
@@ -251,7 +253,7 @@
                   Аренда зала
                 </span>
                 <span class="estimate-block__text">
-                  240 000 ₽
+                  240 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -259,7 +261,7 @@
                   Инвентарь
                 </span>
                 <span class="estimate-block__text">
-                  5 000 ₽
+                  5 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -267,7 +269,7 @@
                   Зарплата тренеров
                 </span>
                 <span class="estimate-block__text">
-                  108 000 ₽
+                  108 000 <span class="rouble">i</span>
                 </span>
               </div>
               <div class="estimate-block__item">
@@ -275,11 +277,11 @@
                   Страховые взносы 27,1%
                 </span>
                 <span class="estimate-block__text">
-                  29 268 ₽
+                  29 268 <span class="rouble">i</span>
                 </span>
               </div>
               <p class="estimate-block__total">
-                382 268 ₽
+                382 268 <span class="rouble">i</span>
               </p>
             </div>
           </div>
@@ -289,7 +291,7 @@
         <div class="form__donation-bar">
           <div class="form__donation-bar-progress"></div>
         </div>
-        <span class="form__donation-sum">Собрали 3 374 из 764 536 рублей</span>
+        <span class="form__donation-sum">Собрали <span class="form__donation-sum-current">0</span> из <span class="form__donation-sum-max">764536</span> рублей</span>
       </section>
 
       <section class="sport">
@@ -368,9 +370,9 @@
               </a>
             </li>
             <li class="social__item social__item_position_donation">
-              <script type="text/javascript">
-                document.write(VK.Share.button({ url: 'https://bestbuddies.ru/', title: 'Лучшие друзья' }, { type: 'custom', text: '<img src="./images/vk1.png" alt="vk" class="social__icon" />' }));
-              </script>
+              <button class="social__icon_vk" data-sharer="vk"
+                data-title="vk" data-url="https://bestbuddies.ru/">
+                <img src="./images/vk1.png" alt="vk" class="social__icon" /></button>
             </li>
             <li class="social__item social__item_position_donation">
               <a href="https://www.facebook.com/sharer/sharer.php?u=bestbuddies.ru" target="_blank" class="social__link">
@@ -436,42 +438,45 @@
         </div>
       </footer>
 
-      <div class="popup"></div>
+      <div class="popup">
+        <div class="popup__content popup__content_form">
+          <img src="./images/close.svg" alt="Закрыть" class="popup__close">
+        </div>
+      </div>
 
-    </div>
+      </div>
 
-    <template class="popup-template__form">
-      <div class="popup__content popup__content_form">
-        <img src="./images/close.svg" alt="Закрыть" class="popup__close">
+      <template class="popup-template__form">
 
         <form class="popup__form" name="donate" novalidate>
           <h2 class="popup__title">Спасибо, что решили помочь ребятам с нарушением развития!</h2>
           <div class="popup__payment-wrapper">
             <span class="popup__payment-type popup__payment-type_active">Банковская карта</span>
             <span class="popup__payment-type">Яндекс.Деньги</span>
-            <div class="popup__payment-switch">
-              <div class="popup__payment-active"></div>
-            </div>
+          </div>
+          <div class="popup__payment-switch">
+            <div class="popup__payment-active"></div>
           </div>
           <ul class="popup__sum-wrapper">
             <li class="popup__sum-button">
-              <input type="radio" class="popup__sum-radio" id='s100' name="sum">
-              <label for="s100" class="popup__sum-label">100 ₽</label>
+              <input type="radio" class="popup__sum-radio" name="sum" value="100">
+              <label for="sum" class="popup__sum-label">100 <span class="rouble">o</span></label>
             </li>
             <li class="popup__sum-button">
-              <input type="radio" class="popup__sum-radio" id='s300' name="sum">
-              <label for="s300" class="popup__sum-label">300 ₽</label>
+              <input type="radio" class="popup__sum-radio" name="sum" value="300">
+              <label for="sum" class="popup__sum-label">300 <span class="rouble">o</span></label>
             </li>
             <li class="popup__sum-button">
-              <input type="radio" class="popup__sum-radio" id='s500' name="sum" checked>
-              <label for="s500" class="popup__sum-label">500 ₽</label>
+              <input type="radio" class="popup__sum-radio" name="sum" checked value="500">
+              <label for="sum" class="popup__sum-label">500 <span class="rouble">o</span></label>
             </li>
             <li class="popup__sum-button">
-              <input type="radio" class="popup__sum-radio" id='s1000' name="sum">
-              <label for="s1000" class="popup__sum-label">1000 ₽</label>
+              <input type="radio" class="popup__sum-radio" name="sum" value="1000">
+              <label for="sum" class="popup__sum-label">1000 <span class="rouble">o</span></label>
             </li>
             <li class="popup__sum-button popup__sum-button_custom">
-              <input type="number" class="popup__input popup__input_custom_sum" placeholder="Ваша сумма">
+              <input class="popup__input popup__input_custom_sum" placeholder="Ваша сумма" name='customSum'
+                pattern="[1-9]+[0-9]*">
               <img src="./images/ruble-icon.png" alt="" class="popup__input-icon">
             </li>
           </ul>
@@ -495,46 +500,41 @@
 
           <label class="popup__accept-tag">Я принимаю правила, изложенные в <a href="#"
               class="popup__accept-link">Соглашении&nbsp;об&nbsp;использовании персональных данных</a>
-              <input type="checkbox" class="popup__accept" required>
-              <span class="popup__accept-custom"></span>
+            <input type="checkbox" class="popup__accept" required>
+            <span class="popup__accept-custom"></span>
           </label>
         </form>
-      </div>
-    </template>
 
-    <template class="popup-template__success">
-      <div class="popup__form popup__form_success">
-        <h2 class="popup__title">Спасибо, что вы помогаете ребятам с нарушением интеллекта заниматься спортом и
-          развиваться.</h2>
-        <img src="./images/video__wrapper.jpg" alt="Best friends" class="popup__image">
-        <p class="popup__share-text">Расскажите своим друзьям о фонде «Лучшие друзья» и о вашем вкладе:</p>
-        <ul class="social__list social__list_position_form">
-          <li class="social__item social__item_position_donation">
-            <a href="https://twitter.com/share?url=https://bestbuddies.ru/" class="social__link">
-              <img src="./images/twitter.png" alt="twitter" class="social__icon" />
-            </a>
-          </li>
-          <li class="social__item social__item_position_donation">
-            <a href="https://vk.com" class="social__link">
-              <img src="./images/vk.png" alt="vk" class="social__icon" />
-            </a>
+      </template>
 
-            <!-- <script type="text/javascript">
-              document.write(VK.Share.button({ url: 'https://bestbuddies.ru/', title: 'Лучшие друзья' }, { type: 'custom', text: '<img src="./images/vk1.png" alt="vk" class="social__icon" />' }));
-            </script> -->
-          </li>
-          <li class="social__item social__item_position_donation">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=bestbuddies.ru" target="_blank" class="social__link">
-              <img src="./images/fb1.png" alt="facebook" class="social__icon" />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </template>
+      <template class="popup-template__success">
+        <div class="popup__form popup__form_success">
+          <h2 class="popup__title">Спасибо, что вы помогаете ребятам с нарушением интеллекта заниматься спортом и
+            развиваться.</h2>
+          <img src="./images/video__wrapper.jpg" alt="Best friends" class="popup__image">
+          <p class="popup__share-text">Расскажите своим друзьям о фонде «Лучшие друзья» и о вашем вкладе:</p>
+          <ul class="social__list social__list_position_form">
+            <li class="social__item social__item_position_donation">
+              <a href="https://twitter.com/share?url=https://bestbuddies.ru/" class="social__link">
+                <img src="./images/twitter.png" alt="twitter" class="social__icon" />
+              </a>
+            </li>
+            <li class="social__item social__item_position_donation">
+              <button class="social__icon_vk" data-sharer="vk" data-title="vk" data-url="https://bestbuddies.ru/">
+                <img src="./images/vk1.png" alt="vk" class="social__icon" /></button>
+            </li>
+            <li class="social__item social__item_position_donation">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=bestbuddies.ru" target="_blank" class="social__link">
+                <img src="./images/fb1.png" alt="facebook" class="social__icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </template>
 
     <script
       type="module"
-      src="main.bfdadae27063d5931d54.js"
+      src="main.289aaf2d498533a36924.js"
     ></script>
 
   </body>
