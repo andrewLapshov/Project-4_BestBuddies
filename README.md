@@ -43,4 +43,4 @@
 
 ### Ссылка на проект
 
-https://andrewlapshov.github.io/Project-4_BestBuddies/
+https://andrewlapshov.github.io/BestBuddies/
